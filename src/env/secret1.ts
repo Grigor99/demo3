@@ -1,9 +1,9 @@
 export const environment = {
   production: false,
   backendUrl: '*************',
-  oauthId: 'not used',
+  oauthId: '12132423',
   oauthSecret: 'ehfjhjd5367254763524763',
-  oauthIssuer: 'not used',
+  oauthIssuer: 'user1',
   scopes: 'not used',
   cookieName: 'weni',
   localisation: 'DE',
