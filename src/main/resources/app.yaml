@@ -1,11 +1,3 @@
-rules:
-  - api-key:
-      regex: '[A-Za-z0-9]{32,}'
-  - password:
-      regex: '(password|auth_token|api_token)=.+$'
-  - database:
-      regex: '(jdbc:mysql://|jdbc:postgresql://).+$'
-  - aws:
-      regex: '(AKI[A-Z0-9]{16}|s3\.[0-9a-fA-F]{32})'
-  - custom-secret:
-      regex: 'custom_secret=.+$'
+gitleaks:
+  - custom-password:
+      regex: 'password'
