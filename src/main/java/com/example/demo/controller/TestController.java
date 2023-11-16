@@ -49,6 +49,10 @@ public class TestController {
         nodeBERepol.deleteById(id);
         return ResponseEntity.ok("done");
     }
+//    public ResponseEntity<String> delete(@PathVariable(name = "id") Long id){
+//        nodeBERepol.deleteById(id);
+//        return ResponseEntity.ok("done");
+//    }
     @PostMapping("")
     @Transactional
     public ResponseEntity<String> pinsert(){

@@ -9,6 +9,17 @@ public class TestBE extends NodeBE{
     public TestBE() {
     }
 
+
+
+
+
+
+
+
+
+
+
+
     @Column
     private String name;
 
